@@ -1,7 +1,15 @@
 import random
 
-def generate_humidity():
-    humidity = random.randint(40,80)
-    return humidity
+humidity = 60
 
-print(generate_humidity())
+
+def generate_humidity():
+    global humidity
+
+    variation = random.randint(-2, 2)
+
+    humidity += variation
+
+    humidity = max(40, min(80, humidity))
+
+    return humidity
