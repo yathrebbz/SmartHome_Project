@@ -1,20 +1,70 @@
-Time,Temperature,Humidity,Light,Motion
-15:02:03,25.5,68,72,no motion
-15:02:07,25.3,68,46,no motion
-15:02:11,25.2,70,38,no motion
-15:02:15,25.2,72,56,detection
-15:02:19,25.0,74,39,detection
-15:02:23,25.1,75,520,no motion
-15:02:27,24.9,74,856,no motion
-15:02:31,24.7,72,490,no motion
-15:02:35,24.8,71,620,no motion
-15:02:39,24.9,70,849,no motion
-15:02:43,25.1,72,924,no motion
-15:02:47,25.1,74,982,detection
-15:02:51,24.8,73,569,no motion
-15:02:55,24.7,72,544,no motion
-15:02:59,24.9,72,589,no motion
-15:03:03,25.1,72,438,no motion
-15:03:07,24.8,70,692,detection
-15:03:11,25.1,71,868,no motion
-15:03:15,25.3,69,15,no motion
+Time,Room,Temperature,Humidity,Light,Motion
+11:51:18,Living Room,24.8,50,574,True
+11:51:18,Bedroom,23.6,61,46,True
+11:51:18,Kitchen,25.6,71,627,True
+11:51:20,Living Room,22.0,52,379,False
+11:51:20,Bedroom,23.0,70,37,True
+11:51:20,Kitchen,31.6,70,551,True
+11:51:22,Living Room,23.7,47,696,True
+11:51:22,Bedroom,23.8,64,45,True
+11:51:22,Kitchen,27.9,55,893,False
+11:51:24,Living Room,22.1,49,404,True
+11:51:24,Bedroom,22.5,52,54,False
+11:51:24,Kitchen,29.8,68,740,False
+11:51:26,Living Room,25.1,59,524,True
+11:51:26,Bedroom,21.9,58,76,True
+11:51:26,Kitchen,26.0,74,481,True
+11:51:28,Living Room,22.0,46,471,True
+11:51:28,Bedroom,23.3,59,77,True
+11:51:28,Kitchen,27.2,68,732,False
+11:51:30,Living Room,23.4,55,648,True
+11:51:30,Bedroom,24.7,67,88,True
+11:51:30,Kitchen,31.5,70,730,True
+11:51:32,Living Room,23.9,52,410,True
+11:51:32,Bedroom,22.1,66,80,True
+11:51:32,Kitchen,28.8,73,798,True
+11:51:34,Living Room,25.9,46,498,False
+11:51:34,Bedroom,20.7,65,124,True
+11:51:34,Kitchen,29.7,62,533,False
+11:51:36,Living Room,22.9,45,609,True
+11:51:36,Bedroom,24.2,55,25,True
+11:51:36,Kitchen,27.6,73,440,True
+11:51:39,Living Room,26.3,52,659,False
+11:51:39,Bedroom,20.8,64,62,False
+11:51:39,Kitchen,25.5,56,693,False
+11:51:41,Living Room,22.4,47,366,False
+11:51:41,Bedroom,22.8,62,24,False
+11:51:41,Kitchen,27.6,55,414,False
+11:51:43,Living Room,26.5,57,626,False
+11:51:43,Bedroom,22.8,56,31,False
+11:51:43,Kitchen,27.4,72,437,False
+11:51:45,Living Room,26.6,53,349,False
+11:51:45,Bedroom,20.3,68,49,True
+11:51:45,Kitchen,31.8,64,610,True
+11:51:47,Living Room,22.4,53,456,True
+11:51:47,Bedroom,23.3,60,169,False
+11:51:47,Kitchen,26.5,59,712,True
+11:51:49,Living Room,23.7,47,367,False
+11:51:49,Bedroom,22.0,62,76,False
+11:51:49,Kitchen,28.4,55,560,False
+11:51:51,Living Room,23.3,56,640,False
+11:51:51,Bedroom,22.0,70,162,True
+11:51:51,Kitchen,26.7,62,433,True
+11:51:53,Living Room,24.1,48,372,True
+11:51:53,Bedroom,24.7,57,192,False
+11:51:53,Kitchen,26.3,55,441,True
+11:51:55,Living Room,25.6,56,622,True
+11:51:55,Bedroom,20.3,67,50,True
+11:51:55,Kitchen,26.7,70,681,False
+11:51:57,Living Room,23.6,45,580,True
+11:51:57,Bedroom,22.7,70,41,True
+11:51:57,Kitchen,27.6,56,403,True
+11:51:59,Living Room,24.4,55,419,False
+11:51:59,Bedroom,22.8,56,104,False
+11:51:59,Kitchen,27.1,71,739,True
+11:52:01,Living Room,24.1,49,302,True
+11:52:01,Bedroom,23.1,61,68,False
+11:52:01,Kitchen,29.0,70,671,False
+11:52:03,Living Room,23.2,49,338,True
+11:52:03,Bedroom,20.6,56,134,False
+11:52:03,Kitchen,28.1,71,696,False

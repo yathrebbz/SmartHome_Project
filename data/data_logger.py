@@ -4,7 +4,7 @@ import os
 FILE_NAME = "data/sensor_data.csv"
 
 
-def save_data(time, temperature, humidity, light, motion):
+def save_data(time, room, temperature, humidity, light, motion):
 
     file_exists = os.path.isfile(FILE_NAME)
 
@@ -15,6 +15,7 @@ def save_data(time, temperature, humidity, light, motion):
         if not file_exists:
             writer.writerow([
                 "Time",
+                "Room",
                 "Temperature",
                 "Humidity",
                 "Light",
@@ -23,6 +24,7 @@ def save_data(time, temperature, humidity, light, motion):
 
         writer.writerow([
             time,
+            room,
             temperature,
             humidity,
             light,
